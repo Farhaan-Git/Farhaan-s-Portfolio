@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SKILLS page</title>
+    <link rel="stylesheet" href="indexstyle.css" />
+    <link rel="icon" href="images/favicon.ico.png"/>
+  </head>
+  <body>
+    <header>
+      <ul class="navbar">
+        <span id="navcenter-text"><i>Farhaan</i></span>
+        <a href="index.html"><li class="navbar-elements">HOME</li></a>
+        <a href="Skills.html"><li class="navbar-elements">SKILLS</li></a>
+        <a href="about.html"><li class="navbar-elements">ABOUT</li></a>
+      </ul>
+    </header>
+    <main>
+    <div id="skills-page1">
+        <table id="skills-tablelang-img">
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img id="C-img" onmouseover="bigimage(this)" onmouseout="normalimage(this)" src="images/c logo2.jpg" title="C language"/></a></td>
+                <td><a href="https://en.wikipedia.org/wiki/C%2B%2B"><img id="cpp-img" onmouseover="bigimage(this)" onmouseout="normalimage(this)" src="images/c++logo.jpg" title="C++"/></a></td>
+                <td><a href="https://en.wikipedia.org/wiki/Java"><img id="java-img" onmouseover="bigimage(this)" onmouseout="normalimage(this)" src="images/javalogo.jpg" title="Java"/></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Python_(programming_language)"><img id="python-img" onmouseover="bigimage(this)" onmouseout="normalimage(this)" src="images/pythonlogo.jpg" title="Python"/></a></td>
+                <td><a href="https://en.wikipedia.org/wiki/HTML"><img id="html-img" onmouseover="bigimage(this)" onmouseout="normalimage(this)" src="images/htmllogo.jpg" title="HTML"/></a></td>
+                <td><a href="https://en.wikipedia.org/wiki/CSS"><img id="css-img" onmouseover="bigimage(this)" onmouseout="normalimage(this)" src="images/css image.jpg" title="CSS"/></a></td>
+            </tr>
+        </table>
+    </div>
+     <div id="skills-page2">
+      <div id="skill-para-page2">
+        <div id="skill-txt-my" onmouseover="change(this)" onmouseout="normalalign(this)">
+          <a><span id="skill-txt">My</span></a>
+        </div>
+          <pre id="skills-para">
+  Hey i expertise in:-
+
+          -Python
+          -C
+          -C++
+          -Java
+          -HTML
+          -CSS
+            </pre>
+      </div>
+      <div id="skill-txt-main">
+        <div id="skill-txt-div" onmouseover="change(this)" onmouseout="normalalign(this)">
+            <a  ><span id="skill-txt" >SKILLS</span></a>
+        </div>
+        <img  id="skill-txt-img" src="images/programingskills-removebg-preview.png"/>
+      </div>
+    </main>
+    <footer>
+      <h1 style="margin-top:20px;">CONTACT ME :</h1>
+      <span style="display:inline;">EMAIL : </span>farhaanfashia28@gamil.com
+      <br>
+      <span>Phone number : </span>9150660775
+      <br>
+      <span>LINKED IN : </span><a href="https://www.linkedin.com/in/farhaan-ahmed-b55529239/" target="_blank  " style="text-decoration:underline ;">Click Here</a>
+      <br>
+      <br>
+      <br>
+    </footer>
+     <script>
+      function bigimage(img){
+        img.style.width= "350px";
+        img.style.height= "350px";
+      }
+      function normalimage(img){
+        img.style.width="200px";
+        img.style.height="200px";
+      }
+      function change(x){
+        if(x.style.textAlign == "right")
+          x.style.textAlign="left";
+        else
+          x.style.textAlign="right";
+      }
+      function normalalign(x){
+        change(x);
+      }
+     </script>
+  </body>
+</html>
